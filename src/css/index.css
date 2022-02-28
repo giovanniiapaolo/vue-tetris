@@ -1,0 +1,13 @@
+:root {
+	--main-bg-color: #f8fafc;
+	--cell-bg-color: #f1f5f9dd;
+}
+
+body {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	background-image: url("/static/beach.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
