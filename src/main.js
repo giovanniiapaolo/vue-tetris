@@ -5,11 +5,11 @@ import "./css/index.css";
 const app = new Vue({
 	el: "#app",
 	components: {
-		tetris: tetris
-	}
+		tetris: tetris,
+	},
 });
 
-document.body.onkeydown = e => {
+document.body.onkeydown = (e) => {
 	if ([27].includes(e.keyCode)) {
 		// Esc
 		app.$refs.tetris.init();
